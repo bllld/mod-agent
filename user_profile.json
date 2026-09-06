@@ -1,34 +1,4 @@
 {
-  "user": {
-    "name": "مود (Mod)",
-    "role": "المطور والمبرمج",
-    "environment": "Android Termux / Linux"
-  },
-  "facts": {
-    "من انا": {
-      "value": "أنت المطور والمبرمج مود، وتعمل في بيئة Android Termux / Linux.",
-      "confidence": 1.0,
-      "source": "local_memory"
-    },
-    "من انت": {
-      "value": "أنا MOD Agent، مساعدك المحلي الذكي داخل بيئة Termux.",
-      "confidence": 1.0,
-      "source": "system_identity"
-    },
-    "ما اسمي": {
-      "value": "اسمك مود (Mod).",
-      "confidence": 1.0,
-      "source": "local_memory"
-    },
-    "ما هو دوري": {
-      "value": "دورك هو المطور والمبرمج لهذا النظام.",
-      "confidence": 1.0,
-      "source": "local_memory"
-    },
-    "اين اعمل": {
-      "value": "تعمل في بيئة Termux على نظام أندرويد وLinux.",
-      "confidence": 1.0,
-      "source": "local_memory"
-    }
-  }
+  "user": {},
+  "facts": {}
 }
