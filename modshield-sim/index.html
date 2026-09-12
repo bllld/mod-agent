@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ModShield AI — Assistant Simulation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="title">
+        <p class="eyebrow">ASSISTANT SIMULATION</p>
+        <h1 id="title">ModShield AI</h1>
+        <p class="subtitle">Ask before you click. Get a calm, safety-first risk assessment.</p>
+      </section>
+
+      <section class="assistant" aria-label="ModShield AI assistant">
+        <div class="assistant-head">
+          <span class="shield">⌁</span>
+          <div><strong>ModShield</strong><small>Ready to assess a suspicious message or link</small></div>
+          <span class="status">Online</span>
+        </div>
+        <div id="conversation" class="conversation" aria-live="polite">
+          <article class="message bot">Hi — paste a suspicious message or URL and I’ll explain the warning signs and the safest next step.</article>
+        </div>
+        <form id="assessment-form" class="composer">
+          <label for="input">What would you like ModShield to check?</label>
+          <textarea id="input" required maxlength="1000" placeholder="Example: Your account will be closed today. Verify at https://amazon-security-login.example"></textarea>
+          <button type="submit">Assess risk</button>
+        </form>
+      </section>
+
+      <section class="disclaimer"><strong>Safety note:</strong> This is an educational triage tool. It does not open links, collect credentials, or replace an official security investigation.</section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
