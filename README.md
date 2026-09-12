@@ -62,3 +62,16 @@ python test_agent.py
 - user_profile.json: ذاكرة البيانات والحقائق الثابتة للمستخدم.
 - test_agent.py: سكربت الاختبارات والتحقق البرمجي.
 - README.md: ملف التوثيق المعماري الرسمي.
+
+
+---
+
+## ModShield AI Assistant Simulation
+
+A browser-based simulated assistant experience for explaining suspicious messages and link risk signals. It provides transparent risk levels and safer next steps without opening submitted links or collecting credentials.
+
+### Run the simulation
+
+Open [modshield-sim/index.html](modshield-sim/index.html) in a modern browser. No installation is required.
+
+For a guided walkthrough, paste a suspicious message or URL into the interface and review the risk signals and safe actions it returns.
